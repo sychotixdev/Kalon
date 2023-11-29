@@ -2,4 +2,4 @@
 
 namespace Kalon.Records;
 
-internal sealed record Movement(TimeSpan Delay, IEnumerable<Point> Points);
+public sealed record Movement(TimeSpan Delay, IEnumerable<Point> Points);
